@@ -3,7 +3,7 @@ from auth import gupshup_api_key
 
 url = "http://homeassistant:8123/api/states"
 
-api_key = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2MGE0YTkwNzQ0ZDI0MjU4ODc0M2E5NTcxNTUwMWI3NCIsImlhdCI6MTczOTQ0NTIxOCwiZXhwIjoyMDU0ODA1MjE4fQ.f0NbgsVAo5-WClrXsbJFbzX-A4qX-wiKfTq9YzQtk0Q'
+api_key = gupshup_api_key
 
 payload = { 
     "message":
